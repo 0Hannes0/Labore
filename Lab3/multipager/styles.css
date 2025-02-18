@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  

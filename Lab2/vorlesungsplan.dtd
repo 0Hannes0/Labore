@@ -1,0 +1,5 @@
+<!ELEMENT vorlesungsplan (modul+)>
+<!ELEMENT modul (titel, dozent, zeitraum)>
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT dozent (#PCDATA)>
+<!ELEMENT zeitraum (#PCDATA)>

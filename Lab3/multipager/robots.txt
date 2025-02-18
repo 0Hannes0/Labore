@@ -1,0 +1,12 @@
+# robots.txt für www.ihrewebseite.de
+
+# Erlaube allen Crawlern das Crawlen der gesamten Website
+User-agent: *
+Disallow:
+
+# Beispiel: Blockiere den Zugriff auf den Admin-Bereich
+User-agent: *
+Disallow: /admin/
+
+# Sitemap für Suchmaschinen
+Sitemap: https://www.ihrewebseite.de/sitemap.xml

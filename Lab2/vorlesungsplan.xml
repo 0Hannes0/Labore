@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vorlesungsplan SYSTEM "vorlesungsplan.dtd">
+<vorlesungsplan xmlns:fach="http://example.com/fach" xmlns:dozent="http://example.com/dozent">
+  <modul>
+    <fach:titel>Webentwicklung</fach:titel>
+    <dozent:name>Dr. Müller</dozent:name>
+    <zeitraum>09:00 - 10:30</zeitraum>
+  </modul>
+  <modul>
+    <fach:titel>Datenbanken</fach:titel>
+    <dozent:name>Prof. Schmidt</dozent:name>
+    <zeitraum>11:00 - 12:30</zeitraum>
+  </modul>
+</vorlesungsplan>
