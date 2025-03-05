@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vorlesungsplan SYSTEM "vorlesungsplan.dtd">
+<vorlesungsplan xmlns:uni="http://example.com/universitaet">
+    <semester jahr="2025" typ="Sommersemester">
+        <kurs name="Informatik 1">
+            <veranstaltung dozent="Dr. Müller" raum="A101" zeit="08:00-09:30">
+                <uni:titel>Einführung in XML</uni:titel>
+                <typ>Vorlesung</typ>
+            </veranstaltung>
+            <veranstaltung dozent="Prof. Schmidt" raum="B202" zeit="10:00-11:30">
+                <uni:titel>Datenbanken</uni:titel>
+                <typ>Übung</typ>
+            </veranstaltung>
+        </kurs>
+    </semester>
+</vorlesungsplan>

@@ -1,0 +1,12 @@
+# robots.txt für unsere Webseite
+
+# Erlauben Sie allen User-Agents, alle Seiten zu crawlen
+User-agent: *
+Disallow:
+
+# Blockieren Sie den Zugang zu einem privaten Bereich (falls erforderlich)
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap-URL angeben
+Sitemap: https://www.example.com/sitemap.xml
