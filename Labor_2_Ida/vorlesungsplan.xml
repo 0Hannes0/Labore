@@ -1,0 +1,27 @@
+<!DOCTYPE vorlesungsplan SYSTEM "vorlesungsplan.dtd">
+<vorlesungsplan>
+    <vorlesung>
+        <fach>Mathe 1</fach>
+        <dozent>Spandl, Ch.</dozent>
+        <raum>H222</raum>
+        <datum>04.02</datum>
+        <beginn>8:00</beginn>
+        <ende>9:30</ende>
+    </vorlesung>
+    <vorlesung>
+        <fach>Einführung Matlab/Simulink</fach>
+        <dozent>Spandl, Ch.</dozent>
+        <raum>H222</raum>
+        <datum>04.02</datum>
+        <beginn>9:45</beginn>
+        <ende>12:15</ende>
+    </vorlesung>
+    <vorlesung>
+        <fach>Web Engineering</fach>
+        <dozent>Schneider, J.</dozent>
+        <raum>H222</raum>
+        <datum>04.02</datum>
+        <beginn>13:30</beginn>
+        <ende>16:00</ende>
+    </vorlesung>
+</vorlesungsplan>

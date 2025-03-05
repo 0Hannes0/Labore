@@ -1,0 +1,8 @@
+<!ELEMENT vorlesungsplan (vorlesung+)>
+<!ELEMENT vorlesung (fach,dozent,raum,datum,beginn,ende)>
+<!ELEMENT fach (#PCDATA)>
+<!ELEMENT dozent (#PCDATA)>
+<!ELEMENT raum (#PCDATA)>
+<!ELEMENT datum (#PCDATA)>
+<!ELEMENT beginn (#PCDATA)>
+<!ELEMENT ende (#PCDATA)>
