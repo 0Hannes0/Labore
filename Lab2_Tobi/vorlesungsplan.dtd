@@ -1,0 +1,17 @@
+<!ELEMENT vorlesungsplan (semester+)>
+<!ATTLIST vorlesungsplan xmlns:uni CDATA #IMPLIED>
+
+<!ELEMENT semester (kurs+)>
+<!ATTLIST semester jahr CDATA #REQUIRED>
+<!ATTLIST semester typ CDATA #REQUIRED>
+
+<!ELEMENT kurs (veranstaltung+)>
+<!ATTLIST kurs name CDATA #REQUIRED>
+
+<!ELEMENT veranstaltung (titel, typ)>
+<!ATTLIST veranstaltung dozent CDATA #REQUIRED>
+<!ATTLIST veranstaltung raum CDATA #REQUIRED>
+<!ATTLIST veranstaltung zeit CDATA #REQUIRED>
+
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT typ (#PCDATA)>
