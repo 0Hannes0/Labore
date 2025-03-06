@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://www.deinewebseite.de/</loc>
+        <lastmod>2025-03-06</lastmod>
+        <priority>1.00</priority>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://www.deinewebseite.de/reiseziele.html</loc>
+        <lastmod>2025-03-06</lastmod>
+        <priority>0.80</priority>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://www.deinewebseite.de/tipps.html</loc>
+        <lastmod>2025-03-06</lastmod>
+        <priority>0.80</priority>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://www.deinewebseite.de/galerie.html</loc>
+        <lastmod>2025-03-06</lastmod>
+        <priority>0.80</priority>
+    </sitemap>
+
+    <sitemap>
+        <loc>https://www.deinewebseite.de/inspiration.html</loc>
+        <lastmod>2025-03-06</lastmod>
+        <priority>0.80</priority>
+    </sitemap>
+</sitemapindex>

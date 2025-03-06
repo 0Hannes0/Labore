@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: url('../img/background.jpeg') no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+section {
+    padding: 50px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.grid img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+.destination img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

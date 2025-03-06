@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reise & Abenteuer</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: url('img/background.jpeg') no-repeat center/cover; color: white; text-align: center; padding: 60px; }
+        nav { background: #333; padding: 10px; text-align: center; position: sticky; top: 0; }
+        nav a { color: white; text-decoration: none; padding: 15px; display: inline-block; }
+        section { padding: 50px; }
+        .destination img { width: 100%; max-width: 500px; border-radius: 10px; }
+        .grid { display: flex; flex-wrap: wrap; gap: 20px; }
+        .grid div { flex: 1; min-width: 300px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        footer { background: #333; color: white; text-align: center; padding: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf unserer Reise-Webseite</h1>
+        <p>Entdecke die schönsten Orte der Welt!</p>
+    </header>
+    <nav>
+        <a href="#ziele">Top Reiseziele</a>
+        <a href="#tipps">Reisetipps</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#kontakt">Reise-Inspiration</a>
+    </nav>
+    <section id="ziele">
+        <h2>Top Reiseziele</h2>
+        <div class="grid">
+            <div class="destination">
+                <h3>Bali, Indonesien</h3>
+                <img src="img/bali.jpeg" alt="Bali">
+                <p>Entspanne an traumhaften Stränden und entdecke die Tempel der Insel.</p>
+            </div>
+            <div class="destination">
+                <h3>Paris, Frankreich</h3>
+                <img src="img/Paris.jpeg" alt="Paris">
+                <p>Die Stadt der Liebe – ein Paradies für Kultur- und Kunstliebhaber.</p>
+            </div>
+        </div>
+    </section>
+    <section id="tipps">
+        <h2>Reisetipps</h2>
+        <h3>Packliste</h3>
+        <ul>
+            <li>Reisepass & Visum</li>
+            <li>Reiseadapter</li>
+            <li>Leichte Kleidung & wetterfeste Ausrüstung</li>
+        </ul>
+        <h3>Günstig reisen</h3>
+        <table>
+            <tr><th>Ort</th><th>Günstige Reisezeit</th></tr>
+            <tr><td>Thailand</td><td>Mai - Oktober</td></tr>
+            <tr><td>Portugal</td><td>November - März</td></tr>
+        </table>
+    </section>
+    <section id="galerie">
+        <h2>Reisegalerie</h2>
+        <div class="grid">
+            <img src="img/berge.jpeg" alt="Berge">
+            <img src="img/stadt.jpeg" alt="Stadt">
+            <img src="img/strand.jpeg" alt="Strand">
+        </div>
+    </section>
+    <section id="inspiration">
+        <h2>Reise-Inspiration</h2>
+        <p>Schau dir dieses tolle Reisevideo an und lass dich für dein nächstes Abenteuer inspirieren!</p>
+        
+        <div style="text-align: center;">
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="YouTube Video Player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Reise & Abenteuer</p>
+    </footer>
+</body>
+</html>
