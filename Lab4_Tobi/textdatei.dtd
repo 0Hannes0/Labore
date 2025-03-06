@@ -1,0 +1,6 @@
+<!ELEMENT textdokument (titel, absatz+)>
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT absatz (#PCDATA|formatierung)*>
+<!ELEMENT formatierung (#PCDATA)>
+<!ATTLIST formatierung
+    stil (fett | kursiv | unterstrichen) #REQUIRED>
