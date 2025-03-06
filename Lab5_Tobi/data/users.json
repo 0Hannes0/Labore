@@ -1,0 +1,20 @@
+[
+  {
+    "firstname": "Tobias",
+    "lastname": "Weihing",
+    "username": "tobi",
+    "password": "12345678",
+    "gender": "male",
+    "interests": "html",
+    "comments": ""
+  },
+  {
+    "firstname": "user",
+    "lastname": "user",
+    "username": "user",
+    "password": "12345678",
+    "gender": "male",
+    "interests": "html",
+    "comments": ""
+  }
+]
