@@ -1,0 +1,23 @@
+[
+  {
+    "vorname": "Max",
+    "nachname": "Mustermann",
+    "username": "max123",
+    "password": "password123",
+    "interesse": "javascript"
+  },
+  {
+    "vorname": "Tobias",
+    "nachname": "Weihing",
+    "username": "tobi",
+    "password": "12345678",
+    "interesse": "html5"
+  },
+  {
+    "vorname": "tester",
+    "nachname": "tester",
+    "username": "tester",
+    "password": "123456789",
+    "interesse": "html5"
+  }
+]

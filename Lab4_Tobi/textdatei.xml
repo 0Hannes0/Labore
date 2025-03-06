@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE textdokument SYSTEM "textdokument.dtd">
+<textdokument>
+  <titel>Edward Snowden</titel>
+  <absatz>
+    <formatierung stil="fett">Edward Snowden</formatierung> ist ein
+    <formatierung stil="kursiv">US-amerikanischer Whistleblower</formatierung> und ehemaliger
+    <formatierung stil="kursiv">CIA-Mitarbeiter</formatierung>. Seine Enthüllungen gaben Einblicke
+    in das Ausmaß der weltweiten Überwachungs- und Spionagepraktiken von Geheimdiensten –
+    überwiegend jenen der Vereinigten Staaten und Großbritanniens. Diese lösten im Sommer 2013
+    die NSA-Affäre aus.
+  </absatz>
+  <absatz>
+    Er wurde dafür mehrfach von nichtstaatlichen Organisationen ausgezeichnet und für den Friedensnobelpreis nominiert.
+  </absatz>
+</textdokument>
