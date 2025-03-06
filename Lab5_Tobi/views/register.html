@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registrierung</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>Registrierung</h1>
+  <form action="/register" method="post">
+    <input type="text" name="firstname" placeholder="Vorname" required><br>
+    <input type="text" name="lastname" placeholder="Nachname" required><br>
+    <input type="text" name="username" placeholder="Benutzername" required><br>
+    <input type="password" name="password" placeholder="Passwort" required><br>
+    <label><input type="radio" name="gender" value="male" required> Männlich</label>
+    <label><input type="radio" name="gender" value="female" required> Weiblich</label><br>
+    <select name="interests">
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="javascript">JavaScript</option>
+    </select><br>
+    <textarea name="comments" placeholder="Kommentare (optional)" maxlength="100"></textarea><br>
+    <label><input type="checkbox" name="terms" required> Nutzungsbedingungen akzeptieren</label><br>
+    <button type="submit">Registrieren</button>
+  </form>
+  <script src="/js/register.js"></script>
+</body>
+</html>
