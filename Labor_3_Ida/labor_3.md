@@ -1,4 +1,4 @@
-# Labor 2
+# Labor 3
 ----
 # 1. Erstellen eines statischen Internetauftritts
 ## 1.1 Erstellen eines OnePage Internetauftritts

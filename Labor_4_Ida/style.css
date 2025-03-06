@@ -1,0 +1,29 @@
+textdatei {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    display: block;
+  }
+  
+  titel {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  absatz {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  formatierung[stil="bold"] {
+    font-weight: bold;
+  }
+  
+  formatierung[stil="italic"] {
+    font-style: italic;
+  }
+  
