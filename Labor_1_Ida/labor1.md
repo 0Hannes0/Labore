@@ -28,8 +28,8 @@
 #### 4. href Attribute
 - Ipressum: es öffnet sich ein neuer Tab und man landet auf der Impressum seite der DHBW Web-Seite
 - Instagram: es öffnet sich ein neuer Tab und man landet auf der Instagram seite der dhbw
-- css:
-- js:
+- css: man landet auf den Seitenquelltext vom css Dokuments
+- js: man landet auf dem Seitenquelltext vom js Dokument
 
 ## 2.3. Entwicklungswerkzeuge
 #### 4. Die ersten fünf Webobjekte und ihre Ladezeit
