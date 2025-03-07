@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>Willkommen, <%= user.firstname %>!</h1>
+  <div id="html-content" style="display: <%= user.interests === 'html' ? 'block' : 'none' %>">
+    <h2>HTML-Inhalte</h2>
+    <p>Hier sind HTML-bezogene Informationen...</p>
+  </div>
+  <div id="css-content" style="display: <%= user.interests === 'css' ? 'block' : 'none' %>">
+    <h2>CSS-Inhalte</h2>
+    <p>Hier sind CSS-bezogene Informationen...</p>
+  </div>
+  <div id="javascript-content" style="display: <%= user.interests === 'javascript' ? 'block' : 'none' %>">
+    <h2>JavaScript-Inhalte</h2>
+    <p>Hier sind JavaScript-bezogene Informationen...</p>
+  </div>
+  <div id="geo"></div>
+  <div id="time"></div>
+
+  <script>
+    // Geolocation
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(position => {
+        document.getElementById('geo').innerHTML = `Geokoordinaten: ${position.coords.latitude}, ${position.coords.longitude}`;
+      });
+    }
+
+    // Aktuelle Zeit
+    document.getElementById('time').innerHTML = `Aktuelle Zeit: ${new Date().toLocaleTimeString()}`;
+  </script>
+</body>
+</html>

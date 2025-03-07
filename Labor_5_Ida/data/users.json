@@ -1,0 +1,20 @@
+[
+  {
+    "firstname": "test",
+    "lastname": "t",
+    "username": "test",
+    "password": "Test_123",
+    "gender": "female",
+    "interests": "html",
+    "comments": ""
+  },
+  {
+    "firstname": "admin",
+    "lastname": "t",
+    "username": "admin",
+    "password": "Admin_123",
+    "gender": "female",
+    "interests": "css",
+    "comments": ""
+  }
+]
